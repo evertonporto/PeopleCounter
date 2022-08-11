@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body{
+    background-image: url(train.avif);
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+#increment-btn{
+    font-size: 20px;
+    padding: .5rem;
+    background-color: rgb(141, 36, 36);
+    border-radius: 8%;
+    color: white;
+}
+
+#save-btn{
+    font-size: 20px;
+    padding: .5rem 2rem ;
+    background-color: rgb(37, 235, 212);
+    border-radius: 8%;
+    color: white;
+}
+
+#save-el{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:2rem 20rem;
+}
